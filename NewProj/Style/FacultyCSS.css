@@ -1,0 +1,65 @@
+<style>
+.box{
+  text-align: center;
+}
+
+nav ul a{
+  color: Black;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  transition: .3s linear;
+}
+
+nav ul a:hover{
+  background-color: #04AA6D;
+  color: white;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.Distribution {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.Distribution h2 {
+  margin-top: 0;
+}
+
+.Distribution label,
+.Distribution input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.Distribution input[type="submit"] {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+  /* Optional: Adjust button styles */
+  .btn-reset {
+    margin-right: 10px;
+  }
+
+
+
+</style>
